@@ -1,0 +1,77 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 8px;
+    font-size: medium;
+    margin: 10%;
+    border: none;
+
+}
+.container{
+    background-color: white;
+    border: 50px solid rgb(168, 208, 232);
+    padding: 30px;
+    overflow: hidden;
+}
+.heading{
+    color: rgb(55, 21, 135);
+    font-weight: 300;
+}
+input[type="text"]{
+    color: rgb(116, 63, 166);
+    border: 2px solid rgb(176, 170, 170);
+    border-radius: 8px;
+    padding: 5px;
+    display: inline-flex;
+    width: 300px;
+}
+.row{
+    float: left;
+    padding-right: 100px;
+    color: rgb(226, 213, 239);
+} 
+input[type="email"]{
+    border: 2px solid rgb(176, 170, 170);
+    border-radius: 8px;
+    padding: 5px;
+    width: 300px;
+} 
+input[type="number"]{
+    border: 2px solid rgb(176, 170, 170) ;
+    border-radius: 8px;
+    padding: 5px;
+    width: 300px;
+}
+textarea{
+    border: 2px solid rgb(176, 170, 170);
+    border-radius: 8px;
+    padding: 5px;
+    width: 800px;
+}
+input[type="submit"]{
+    text-align: center;
+    background-color: rgb(52, 52, 160);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+}
+h3{
+    color: lightgreen;
+    font-weight: 300;
+    text-align: center;
+}
+::placeholder{
+    color: rgb(109, 109, 165);
+    
+}
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+   
+}
+.f-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
